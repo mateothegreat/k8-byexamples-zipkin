@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    name: zipkin-collector
+  name: zipkin-collector
+spec:
+  type: ClusterIP
+  selector:
+    app: zipkin
+  ports:
+  - name: scribe
+    port: 9410
+    targetPort: 9410
