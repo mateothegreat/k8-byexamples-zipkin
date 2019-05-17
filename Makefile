@@ -11,8 +11,3 @@ NS					?= default
 APP					?= zipkin
 SERVICE_NAME		?= $(APP)
 SERVICE_PORT		?= 80
-MYSQL_HOST	      	?= mysql
-MYSQL_DATABASE      ?= $(APP)
-MYSQL_USER          ?= wordpress
-MYSQL_PASSWORD      ?= wordpress
-export
