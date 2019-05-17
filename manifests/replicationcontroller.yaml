@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: zipkin
-        image: openzipkin/zipkin:1.20
+        image: openzipkin/zipkin
         env:
         - name: SCRIBE_ENABLED
           value: "true"
